@@ -1,0 +1,37 @@
+# You are encouraged to customize this file to your own need.
+
+
+# Ignore everything.
+*
+# But descend into directories.
+!*/
+
+# Ignore build directory that contains tmp binary files
+build/
+
+# Files (with extension name) to include.
+# e.g. except sources, tests, and configurations.
+!*.c
+!*.h
+!*.mi # memory images files
+!*.s  # assembly files
+!*.lst
+!Makefile
+
+!*.txt
+!*.md
+!*.sh
+
+!.gitignore
+
+# Don't ignore anything in the tests folder.
+!tests/*/*.*
+!tests/
+!tests/*.*
+!examples/*/*.*
+!examples/
+
+# useful docs on gitignore:
+# https://git-scm.com/docs/gitignore
+# https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+# https://jasonstitt.com/gitignore-whitelisting-patterns
